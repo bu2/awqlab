@@ -1,0 +1,3 @@
+[submodule "AutoAWQ"]
+	path = AutoAWQ
+	url = git@github.com:bu2/AutoAWQ.git
