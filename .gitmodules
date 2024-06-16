@@ -1,3 +1,6 @@
 [submodule "AutoAWQ"]
 	path = AutoAWQ
 	url = git@github.com:bu2/AutoAWQ.git
+[submodule "QUICK"]
+	path = QUICK
+	url = git@github.com:bu2/QUICK.git
