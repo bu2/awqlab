@@ -4,3 +4,6 @@
 [submodule "QUICK"]
 	path = QUICK
 	url = git@github.com:bu2/QUICK.git
+[submodule "vllm"]
+	path = vllm
+	url = git@github.com:bu2/vllm.git
