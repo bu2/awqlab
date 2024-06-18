@@ -10,3 +10,6 @@
 [submodule "transformers"]
 	path = transformers
 	url = git@github.com:bu2/transformers.git
+[submodule "optimum-quanto"]
+	path = optimum-quanto
+	url = git@github.com:bu2/optimum-quanto.git
