@@ -7,3 +7,6 @@
 [submodule "vllm"]
 	path = vllm
 	url = git@github.com:bu2/vllm.git
+[submodule "transformers"]
+	path = transformers
+	url = git@github.com:bu2/transformers.git
