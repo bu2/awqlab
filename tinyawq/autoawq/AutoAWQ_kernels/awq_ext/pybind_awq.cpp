@@ -17,7 +17,7 @@ PYBIND11_MODULE(TORCH_EXTENSION_NAME, m)
     m.def("gemv_forward_cuda", &gemv_forward_cuda, "Quantized GEMV kernel.");
     m.def("rotary_embedding_neox", &rotary_embedding_neox, "Apply GPT-NeoX style rotary embedding to query and key");
     m.def("dequantize_weights_cuda", &dequantize_weights_cuda, "Dequantize weights.");
-    m.def("moe_alig_block_size", &moe_alig_block_size, "Aligning the number of tokens to be processed by each expert such that it is divisible by the block size.");
-    m.def("silu_and_mul", &silu_and_mul, "Activation function used in SwiGLU.");
-    m.def("topk_softmax", &topk_softmax, "Computes fused topk and softmax operation.");
+    // m.def("moe_alig_block_size", &moe_alig_block_size, "Aligning the number of tokens to be processed by each expert such that it is divisible by the block size.");
+    // m.def("silu_and_mul", &silu_and_mul, "Activation function used in SwiGLU.");
+    // m.def("topk_softmax", &topk_softmax, "Computes fused topk and softmax operation.");
 }
