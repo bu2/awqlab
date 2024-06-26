@@ -1,6 +1,7 @@
 accelerate
 bitsandbytes
 datasets
+tabulate
 tokenizers
 torch
 tqdm
