@@ -9,6 +9,7 @@ from accelerate.big_modeling import (
     init_empty_weights,
     load_checkpoint_and_dispatch,
 )
+from huggingface_hub import snapshot_download
 import torch
 import torch.nn as nn
 import transformers
