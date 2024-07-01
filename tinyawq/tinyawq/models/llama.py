@@ -9,6 +9,8 @@ from accelerate.big_modeling import (
     load_checkpoint_and_dispatch,
 )
 
+from huggingface_hub import snapshot_download
+
 import torch
 import torch.nn as nn
 

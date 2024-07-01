@@ -25,6 +25,7 @@ ln -s /scratch/huggingface ./
 cd
 
 # Clone awqlab with submodules from GitHub
+# (you would need to set git+ssh authentication on your Github account)
 git clone --recursive https://github.com/bu2/awqlab.git
 cd awqlab
 pip install -r requirements.txt
@@ -59,5 +60,5 @@ pip install -e .
 cd ..
 
 cd tinyawq
-pip install tinyawq
+pip install tinyawq/
 python generate_llama2_7b_chat_tinyawq.py
